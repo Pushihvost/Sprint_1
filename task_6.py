@@ -17,7 +17,9 @@ tickets = {
 tickets_by_type = {}
 
 def delete_dublicate(tickets):
+    
     k=2
+    
     for i in range(1, len(tickets)):
         for element_1 in tickets[i]:
 #            print(f'Элемент 1-го списка  Ключ: {i} {element_1}')
@@ -41,12 +43,3 @@ def relate_tickets_by_type(tickets, types):
 
 delete_dublicate(tickets)
 relate_tickets_by_type(tickets, types)
-
-
-
-
-
-                
-
-
-
